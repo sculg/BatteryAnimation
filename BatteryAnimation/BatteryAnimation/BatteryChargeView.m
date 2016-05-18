@@ -10,15 +10,14 @@
 #define KDeviceHeight [UIScreen mainScreen].bounds.size.height
 
 #import "BatteryChargeView.h"
-@interface BatteryChargeView(){
-    UIColor *_batteryChargeColor;
+@implementation BatteryChargeView{
+    
+    UIColor  *_batteryChargeColor;
     float    currentLength,green;
     BOOL     increase;
     NSString *name;
 }
-@end
 
-@implementation BatteryChargeView
 
 -(id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
@@ -27,7 +26,7 @@
         currentLength = 40;
         [self setBackgroundColor:[UIColor clearColor]];
         
-        [NSTimer scheduledTimerWithTimeInterval:0.02 target:self selector:@selector(animationOfCharge) userInfo:nil repeats:YES];
+        _timer =[NSTimer scheduledTimerWithTimeInterval:0.02 target:self selector:@selector(animationOfCharge) userInfo:nil repeats:YES];
     }
     return self;
 }

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface BatteryChargeView : UIView
-
+@property NSTimer *timer;
 @end

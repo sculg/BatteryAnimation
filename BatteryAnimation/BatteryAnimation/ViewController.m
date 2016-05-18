@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     BatteryChargeView *my = [[BatteryChargeView alloc]initWithFrame:self.view.bounds];
-    [self.view addSubview:my];}
+    [self.view addSubview:my];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
