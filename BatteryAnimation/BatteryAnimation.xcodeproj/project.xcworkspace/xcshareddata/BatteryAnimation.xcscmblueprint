@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8FAF0726804369438BA705929D0B094E7786A95E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8FAF0726804369438BA705929D0B094E7786A95E" : 0,
+    "5D34BEF21EA3907159B61B308E9E91C5A8DF164C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E243DBD-9783-489A-B783-BA6D4082FB89",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8FAF0726804369438BA705929D0B094E7786A95E" : "BatteryAnimation\/",
+    "5D34BEF21EA3907159B61B308E9E91C5A8DF164C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BatteryAnimation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BatteryAnimation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sculg\/BatteryAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D34BEF21EA3907159B61B308E9E91C5A8DF164C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sculg\/BluetoothCharge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FAF0726804369438BA705929D0B094E7786A95E"
+    }
+  ]
+}
