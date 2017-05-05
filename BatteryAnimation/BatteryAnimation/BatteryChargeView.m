@@ -30,8 +30,9 @@
     }
     return self;
 }
-
+    //动画关键部分
 -(void)animationOfCharge{
+    
     if (currentLength < kDeviceWidth-148) {
         currentLength =currentLength+1 +currentLength/240;
         green = currentLength/240+0.5;
