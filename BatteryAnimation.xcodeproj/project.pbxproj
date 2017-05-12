@@ -16,6 +16,7 @@
 		5114B6A91CCA0C4C00E1AED1 /* BatteryAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5114B6A81CCA0C4C00E1AED1 /* BatteryAnimationTests.m */; };
 		5114B6B41CCA0C4C00E1AED1 /* BatteryAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5114B6B31CCA0C4C00E1AED1 /* BatteryAnimationUITests.m */; };
 		5114B6C31CCA0C9900E1AED1 /* BatteryChargeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5114B6C21CCA0C9900E1AED1 /* BatteryChargeView.m */; };
+		CBE1EDF41EBCC6D900E79C69 /* BCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE1EDF31EBCC6D900E79C69 /* BCNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5114B6B51CCA0C4C00E1AED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5114B6C11CCA0C9900E1AED1 /* BatteryChargeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryChargeView.h; sourceTree = "<group>"; };
 		5114B6C21CCA0C9900E1AED1 /* BatteryChargeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryChargeView.m; sourceTree = "<group>"; };
+		CBE1EDF21EBCC6D900E79C69 /* BCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNewViewController.h; sourceTree = "<group>"; };
+		CBE1EDF31EBCC6D900E79C69 /* BCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5114B6951CCA0C4C00E1AED1 /* ViewController.m */,
 				5114B6C11CCA0C9900E1AED1 /* BatteryChargeView.h */,
 				5114B6C21CCA0C9900E1AED1 /* BatteryChargeView.m */,
+				CBE1EDF21EBCC6D900E79C69 /* BCNewViewController.h */,
+				CBE1EDF31EBCC6D900E79C69 /* BCNewViewController.m */,
 				5114B6971CCA0C4C00E1AED1 /* Main.storyboard */,
 				5114B69A1CCA0C4C00E1AED1 /* Assets.xcassets */,
 				5114B69C1CCA0C4C00E1AED1 /* LaunchScreen.storyboard */,
@@ -212,6 +217,7 @@
 				TargetAttributes = {
 					5114B68A1CCA0C4C00E1AED1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2YS8W45RLN;
 					};
 					5114B6A31CCA0C4C00E1AED1 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -277,6 +283,7 @@
 			files = (
 				5114B6961CCA0C4C00E1AED1 /* ViewController.m in Sources */,
 				5114B6931CCA0C4C00E1AED1 /* AppDelegate.m in Sources */,
+				CBE1EDF41EBCC6D900E79C69 /* BCNewViewController.m in Sources */,
 				5114B6C31CCA0C9900E1AED1 /* BatteryChargeView.m in Sources */,
 				5114B6901CCA0C4C00E1AED1 /* main.m in Sources */,
 			);
@@ -419,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YS8W45RLN;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sculg.BatteryAnimation;
@@ -430,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YS8W45RLN;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sculg.BatteryAnimation;
@@ -504,6 +513,7 @@
 				5114B6BA1CCA0C4C00E1AED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5114B6BB1CCA0C4C00E1AED1 /* Build configuration list for PBXNativeTarget "BatteryAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				5114B6BD1CCA0C4C00E1AED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5114B6BE1CCA0C4C00E1AED1 /* Build configuration list for PBXNativeTarget "BatteryAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +531,7 @@
 				5114B6C01CCA0C4C00E1AED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
