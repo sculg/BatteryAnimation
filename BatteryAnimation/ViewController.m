@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     //只需要下面两行代码即可以增加该动画
     BatteryChargeView *my = [[BatteryChargeView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:my];
