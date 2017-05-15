@@ -217,7 +217,7 @@
 				TargetAttributes = {
 					5114B68A1CCA0C4C00E1AED1 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = WUHP8XCQPH;
+						DevelopmentTeam = FY52UQ6R5Z;
 						ProvisioningStyle = Automatic;
 					};
 					5114B6A31CCA0C4C00E1AED1 = {
@@ -427,8 +427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: nc-developer@xiaoniu66.com (ZZK5Z44BY2)";
-				DEVELOPMENT_TEAM = WUHP8XCQPH;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FY52UQ6R5Z;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoniu66.EpaymentDemo;
@@ -442,8 +442,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: nc-developer@xiaoniu66.com (ZZK5Z44BY2)";
-				DEVELOPMENT_TEAM = WUHP8XCQPH;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FY52UQ6R5Z;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoniu66.EpaymentDemo;
