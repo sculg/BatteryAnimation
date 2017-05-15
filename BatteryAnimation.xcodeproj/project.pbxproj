@@ -217,7 +217,7 @@
 				TargetAttributes = {
 					5114B68A1CCA0C4C00E1AED1 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = FY52UQ6R5Z;
+						DevelopmentTeam = WUHP8XCQPH;
 						ProvisioningStyle = Automatic;
 					};
 					5114B6A31CCA0C4C00E1AED1 = {
@@ -428,7 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = FY52UQ6R5Z;
+				DEVELOPMENT_TEAM = WUHP8XCQPH;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoniu66.EpaymentDemo;
@@ -443,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = FY52UQ6R5Z;
+				DEVELOPMENT_TEAM = WUHP8XCQPH;
 				INFOPLIST_FILE = BatteryAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoniu66.EpaymentDemo;
